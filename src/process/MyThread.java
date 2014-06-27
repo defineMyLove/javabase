@@ -22,7 +22,7 @@ public class MyThread extends Thread
     }  
     public static void main(String[] args) throws Exception  
     {  
-        MyThread thread = new MyThread();  
+        MyThread thread = new MyThread();
         SleepThread sleepThread = thread.new SleepThread();  
         sleepThread.start(); // 开始运行线程sleepThread  
         sleepThread.join();  // 使线程sleepThread延迟2秒  
