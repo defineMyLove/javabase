@@ -1,5 +1,13 @@
 package process;
 
+/**
+ * 线程的生命周期
+ * 1.新创建
+ * 2.可运行
+ * 3.运行
+ * 4.冻结
+ * 5.死亡
+ */
 public class LifeCycle extends Thread
 {  
     public void run()  
